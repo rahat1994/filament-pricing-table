@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace RahatBaksh\FilamentPricingTable;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class FilamentPricingTablePlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'filament-pricing-table';
     }
 
     public function register(Panel $panel): void

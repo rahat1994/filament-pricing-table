@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace RahatBaksh\FilamentPricingTable\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentPricingTableCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-pricing-table';
 
     public $description = 'My command';
 
